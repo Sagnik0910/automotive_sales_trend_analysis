@@ -1,119 +1,201 @@
-# Financial Market Intelligence Dashboard
+# Automotive Sales Trend Analysis
 
-### End-to-End Data Analytics Project
+Automotive Sales Trend Analysis is a data analytics project focused on understanding vehicle sales performance, model-level trends, and business insights using Excel-based data, Python analysis, and dashboard reporting.
 
-## Problem Statement
+The project is built as an end-to-end analytics case study with data exploration, sales trend analysis, dashboard visuals, and business-focused interpretation for automotive sales performance.
 
-Financial markets generate massive volumes of data every day. Investors, analysts, and financial institutions must analyze historical stock prices, company performance, and revenue trends to make informed investment decisions. However, raw financial datasets are complex and difficult to interpret without proper data extraction, cleaning, and visualization.
+## Live Demo
 
-This project aims to build a **comprehensive financial market analysis pipeline** that integrates **Python data analysis, spreadsheet analytics, and interactive dashboards** to uncover insights from historical stock data.
+Not deployed. This project is presented through a Jupyter Notebook, Excel dataset, PDF dashboard, and visual screenshots.
 
-The project focuses on analyzing **Tesla (TSLA) and GameStop (GME)** to understand the relationship between **stock market performance and company revenue trends**.
+## Preview
 
----
+### Dashboard Screens
 
-## Project Objectives
+| Sales Overview | Model Performance |
+|---|---|
+| ![Sales Overview](s1.png) | ![Model Performance](s2.png) |
 
-• Collect historical stock price data using financial APIs
-• Extract company revenue data through web scraping
-• Clean and structure financial datasets for analysis
-• Perform exploratory data analysis using Python
-• Store structured datasets in spreadsheet format for further analysis
-• Build visual dashboards to highlight market trends and patterns
-• Generate insights that can support investment analysis
+| Sales Trend | Category Insights |
+|---|---|
+| ![Sales Trend](s3.png) | ![Category Insights](s4.png) |
 
----
+| Dashboard View | Business Insights |
+|---|---|
+| ![Dashboard View](s5.png) | ![Business Insights](s6.png) |
 
-## Tools & Technologies
+| Final Dashboard |
+|---|
+| ![Final Dashboard](s7.png) |
 
-Python
-Pandas
-NumPy
-yfinance API
-BeautifulSoup (Web Scraping)
-Plotly (Interactive Data Visualization)
-Microsoft Excel
-Data Dashboards
+## Project Highlights
 
----
+- Analyzes automotive sales performance across different car models.
+- Uses Excel sales data as the main dataset.
+- Explores model-level sales trends and performance patterns.
+- Includes a Jupyter Notebook for data analysis.
+- Includes a dashboard PDF for visual reporting.
+- Provides screenshot previews of the dashboard.
+- Helps identify top-performing models and sales behavior.
+- Demonstrates practical data analytics workflow for business reporting.
+- Suitable for fresher-level Data Analyst portfolio presentation.
 
-## Project Workflow
+## Tech Stack
 
-### 1. Data Collection
+- Python
+- Pandas
+- Jupyter Notebook
+- Excel
+- Data Cleaning
+- Data Analysis
+- Dashboard Reporting
+- PDF Dashboard
+- Data Visualization
 
-Stock price data was collected using the **yfinance API**, which provides historical financial market data.
+## Dataset
 
-Revenue data was extracted from online financial reports using **web scraping techniques with BeautifulSoup**.
+The included dataset is:
 
----
+```text
+CarSalesByModelEnd.xlsx.xlsx
+```
 
-### 2. Data Processing
+The dataset contains automotive sales information by car model and is used to analyze sales performance, trends, and model-wise business insights.
 
-The collected data was cleaned and transformed using **Pandas** to ensure consistency and usability.
+## Main Files
 
-Key preprocessing steps included:
+```text
+CarSalesByModelEnd.xlsx.xlsx       Automotive sales dataset
+Stock_Analysis_Assignment.ipynb    Jupyter Notebook with analysis workflow
+New dashboard.pdf                  Dashboard report/export
+README.md                          Project documentation
+s1.png                             Dashboard screenshot
+s2.png                             Dashboard screenshot
+s3.png                             Dashboard screenshot
+s4.png                             Dashboard screenshot
+s5.png                             Dashboard screenshot
+s6.png                             Dashboard screenshot
+s7.png                             Dashboard screenshot
+```
 
-* Handling missing values
-* Cleaning financial text data
-* Converting data types
-* Structuring time-series datasets
+## Analysis Approach
 
----
+The project follows a standard data analytics workflow:
 
-### 3. Data Analysis
+1. Load the automotive sales dataset
+2. Review columns, structure, and data quality
+3. Clean and prepare the data for analysis
+4. Explore sales patterns by model
+5. Identify top-performing and low-performing models
+6. Create visual summaries and dashboard views
+7. Export dashboard/report visuals
+8. Document key findings for business interpretation
 
-Exploratory data analysis was conducted to observe patterns in stock price movements and revenue growth over time.
+## Main Features
 
-Key comparisons include:
+### Sales Performance Analysis
 
-* Tesla stock price vs Tesla revenue
-* GameStop stock price vs GameStop revenue
+The project analyzes car sales data to understand how different models perform over time and across sales categories.
 
----
+### Model-Level Insights
 
-### 4. Data Visualization
+The analysis helps identify which car models show stronger sales performance and which models may need additional business attention.
 
-Interactive visualizations were created using **Plotly** to display trends over time, including:
+### Dashboard Reporting
 
-* Tesla Stock Price Trend
-* Tesla Revenue Trend
-* GameStop Stock Price Trend
-* GameStop Revenue Trend
+The project includes a dashboard PDF and image previews to make the results easy to understand for recruiters, analysts, and business users.
 
-These charts allow dynamic exploration of market behavior.
+### Visual Storytelling
 
----
+The screenshots provide a quick view of sales trends, performance comparisons, and dashboard-level summaries.
 
-### 5. Spreadsheet Analysis
+## Project Structure
 
-The processed dataset was exported to **Excel spreadsheets**, allowing further analysis using spreadsheet tools and dashboard visualizations.
+```text
+automotive_sales_trend_analysis/
+├── CarSalesByModelEnd.xlsx.xlsx
+├── New dashboard.pdf
+├── README.md
+├── Stock_Analysis_Assignment.ipynb
+├── s1.png
+├── s2.png
+├── s3.png
+├── s4.png
+├── s5.png
+├── s6.png
+└── s7.png
+```
 
-The spreadsheet component enables:
+## Setup
 
-* Structured financial datasets
-* Tabular data exploration
-* Dashboard development
+Clone the repository:
 
----
+```bash
+git clone https://github.com/Sagnik0910/automotive_sales_trend_analysis.git
+cd automotive_sales_trend_analysis
+```
 
-## Key Insights
+Install required Python libraries if needed:
 
-The project demonstrates how **financial data analytics pipelines** can be built using modern data tools. By combining **Python data processing with spreadsheet dashboards**, analysts can transform raw financial data into meaningful insights.
+```bash
+pip install pandas matplotlib seaborn openpyxl jupyter
+```
 
----
+Open the notebook:
 
-## Repository Contents
+```bash
+jupyter notebook Stock_Analysis_Assignment.ipynb
+```
 
-Stock_Analysis_Assignment.ipynb → Python analysis notebook
-financial_dataset.xlsx → Processed financial dataset
-financial_dashboard.xlsx → Dashboard visualizations
-README.md → Project documentation
+## How To View The Dashboard
 
----
+Open the dashboard PDF:
 
-## Conclusion
+```text
+New dashboard.pdf
+```
 
-This project illustrates how financial datasets can be transformed into meaningful insights using a combination of **data extraction, analysis, and visualization techniques**. The integration of Python analytics with spreadsheet dashboards creates a powerful workflow for **financial data analysis and decision support**.
+Or view the screenshots directly in the repository:
 
----
+```text
+s1.png
+s2.png
+s3.png
+s4.png
+s5.png
+s6.png
+s7.png
+```
 
+## Example Use Cases
+
+- Automotive sales performance analysis
+- Model-wise sales trend reporting
+- Business dashboard creation
+- Excel dataset analysis
+- Data analyst portfolio project
+- Exploratory data analysis practice
+- Dashboard storytelling practice
+
+## Current Limitations
+
+- The project is not deployed as a web dashboard.
+- The analysis depends on the available Excel dataset.
+- Dashboard interactivity is limited because the final dashboard is exported as PDF/images.
+- More advanced forecasting can be added in future versions.
+
+## Future Improvements
+
+- Add interactive dashboard using Power BI, Tableau, or Streamlit.
+- Add more detailed business insights in the notebook.
+- Add monthly or yearly trend forecasting.
+- Include more visual charts for model comparison.
+- Clean the dataset filename for better readability.
+- Add SQL-based analysis queries.
+- Add an executive summary section.
+
+## Author
+
+Sagnik Guha
+
+GitHub: [Sagnik0910](https://github.com/Sagnik0910)
